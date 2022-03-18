@@ -1,5 +1,5 @@
 # chromatic-transformation
-This is the Y2 project of ELEC222 of the university of Liverpool. The project title is image processing on cuttle fish with light compensation.
+This is the Y2 project of ELEC222 of the university of Liverpool. The project title is image processing on cuttlefish with light compensation.
 
 The file ChromaticTrans.py shows the basic procedure of the whole project. "Sham_1068625-0.png" is used as an example fish and the relationship of H(H) and H(L) is used as an example combination of second HLS values. After choosing two points, the program can detect the RGB values of each pixel between these two points and tranfer the RGB values into the first HLS values. The second HLS values are then calculated automatically for analysis.
 When you want to use your own picture, file path should be changed at two places, which are line 31 and line 56.
